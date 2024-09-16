@@ -9,13 +9,11 @@
  */
 int main()
 {
-    int i = 0;
     printf("Print time table for 8 in one column:\n");
-    
-    while (i <= 12)
+
+    for (int i = 0; i <= 12; i++)
     {
         printf("8 x %d = %d \n", i, i * 8);
-        i += 1;
     }
 
     return 0;
