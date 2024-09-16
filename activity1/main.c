@@ -9,6 +9,14 @@
  */
 int main()
 {
+    int i = 0;
+    printf("Print time table for 8 in one column:\n");
+    
+    while (i <= 12)
+    {
+        printf("8 x %d = %d \n", i, i * 8);
+        i += 1;
+    }
 
     return 0;
 }
